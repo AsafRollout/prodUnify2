@@ -1,0 +1,13 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: target-group
+
+name: tg2
+
+description: 
+
+conditions:
+  allOf:
+    - property:
+        name: rox.now
+        operator: is-undefined

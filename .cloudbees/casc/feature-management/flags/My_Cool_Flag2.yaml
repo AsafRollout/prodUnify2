@@ -1,0 +1,14 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag
+
+flag: My_Cool_Flag2
+flagType: boolean
+description: ""
+labels:
+
+availableValues:
+  - "false"
+  - "true"
+
+isPermanent: false
